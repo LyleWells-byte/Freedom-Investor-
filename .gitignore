@@ -1,0 +1,5 @@
+
+# Showcase video build intermediates (regenerable)
+build/clips/
+build/qc/
+build/xfade.txt
