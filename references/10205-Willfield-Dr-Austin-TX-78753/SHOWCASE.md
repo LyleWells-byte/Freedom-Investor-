@@ -56,8 +56,10 @@ and a lower-third overlay. This is the faithful substitute available without Arc
 Output: `10205-Willfield-Dr-Austin-TX-78753_tour.mp4` — 1080×1920, 30 fps, 33.9 s.
 
 ## On-screen facts (lower-third)
-- **Address: 10205 Willfield Dr, Austin, TX 78753** (from the listing URL — verified).
-- **Price / beds / baths / sqft: PENDING** — these live in the Zillow `resoFacts` block,
-  which is unreachable (no network). They are intentionally **not invented**. Provide the
-  four values and the lower-third is regenerated via `build/make_lowerthird.py` and the
-  final muxed in one cheap pass.
+- **Price: $399,999**
+- **10205 Willfield Dr, Austin, TX 78753**
+- **4 Bed · 2 Bath · 1,552 Sq Ft**
+
+(Address from the listing URL; price/beds/baths/sqft supplied by the user, since Zillow's
+`resoFacts` was unreachable in this no-network environment. Regenerate the strip with
+`build/make_lowerthird.py` if any value changes.)
